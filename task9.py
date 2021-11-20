@@ -1,0 +1,7 @@
+finger_num = int(input('enter the ordinal number of your finger: '))
+if finger_num == 1: print('thumb')
+elif finger_num == 2: print('index finger')
+elif finger_num == 3: print('middle finger')
+elif finger_num == 4: print('ring finger')
+elif finger_num == 5: print('little finger')
+else: print('error')
